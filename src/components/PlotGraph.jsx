@@ -90,8 +90,8 @@ function PlotGraph({ casesType }) {
 					data={{
 						datasets: [
 							{
-								backgroundColor: "rgba(204, 16, 52, 0.5)",
-								borderColor: "#CC1034",
+								backgroundColor: "#6e857f",
+								borderColor: "#000000",
 								data: data,
 							},
 						],
