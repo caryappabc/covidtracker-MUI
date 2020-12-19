@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	padding: 2px;
+	padding: 0px;
 }
 
 body {
@@ -9,7 +9,8 @@ body {
 
 .app {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	padding-top: 20px;
 }
 .app__header {
 	display: flex;
@@ -21,6 +22,9 @@ body {
 .app__stats {
 	display: flex;
 	justify-content: space-between;
+}
+.app__left {
+	flex-grow: 1;
 }
 
 @media (max-width: 990px) {
